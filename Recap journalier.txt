@@ -1,0 +1,38 @@
+﻿Lundi 16/12 :
+
+- Parser site format .RSS > données utiles en format List<List<String>>. OK
+- Récupération des infos sur les podcasts et sur les émissions. OK
+- Fonction récupérants la liste des catégories dans laquelle une emission se trouve. OK
+- Début de l'implémentation de l'interface. OK
+- Création des classes objets qui récupéreront les données fournies par le parser et les retransmetterons à l'interface. OK
+
+Objectifs pour la fin de cette journée :
+
+- Récupérer et afficher les podcasts et les emissions depuis un .RSS sur l'interface -> sur l'interface on arrive à afficher les podcasts mais pas les émissions associées aux podcasts
+(mais on arrive bien à générer les listes en console donc il faut juste trouver comment faire le lien entre les deux).
+- Générer l'exécutable. OK
+
+Mardi 17/12 :
+
+- Affichage des emissions en fonctions des podcast et description en fonction des emissions
+- Modification du parseur pour le rendre plus versatile si je puis me permettre
+- Réalisation d'une page utilisateur avec la liste des abonnements, fav (podcast et emission) et historique
+- Réalisation du player et des boutons downloads
+- Tentative de passage entre les pages et amélioration de la page utilisateur
+
+Objectifs fin de journée:
+- Obtenir les menus déroulants (flux de podcast, emissions correspondantes et decription) OK
+- Réaliser un player
+- Permettre de télécharger un podcast
+
+Mercredi 18/12:
+
+- Passage entre les pages
+- Finission sur le player
+
+Objectifs:
+- Player audio et video fonctionnels
+- Playlists profiles liées au fonctionnement de l'app (abo, fav, historique)
+- Passage entre les fenêtres fonctionnel OK
+- Création d'un exécutable
+
